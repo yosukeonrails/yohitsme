@@ -6,8 +6,7 @@ body{
 }
 
 .main{
-	padding-bottom: 100px;
-	background-color: rgb(228, 147, 125);
+	background-color: rgb(224, 224, 224);
 }
 
 
@@ -15,64 +14,86 @@ body{
 h1{margin:0px}
 
 .nav{
+	background-color: #313131;
+	height: 60px;
+	width: 100%;
 	padding-left: 0;
-margin-bottom: 0;
-list-style: none;
-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	bottom: 0px;
-	position: relative;
-top: 69%;
-font-family: 'Catamaran', sans-serif;
+	margin-bottom: 0;
+	list-style: none;
+	padding-top: 10px;
 }
 
+.nav h1{
+	color: white;
+	float: left;
+	font-size: 23px;
+	text-align: center;
+	width: 300px;
+}
 .nav li{
 	display: inline;
 	color: white;
 	float: left;
-	margin: 23px;
-	border: 11px solid #b56868;
-	padding: 13px;
+	margin: 10px;
+	padding: 0px;
 }
 .header{
 	background-color: black;
- width: 100%;
-color:white;
-padding: 50px;
-margin-bottom: 100px
+	width: 100%;
+	color: white;
+	height: 95px;
+	padding: 5px;
+	margin-bottom: 100px;
 }
 .header h1{
-	margin:0px;
+	margin: 0px;
 	text-align: center;
-	font-size: 50px;
+	float: left;
+	width: 300px;
+	font-size: 30px;
 	font-family: 'Montserrat Subrayada', sans-serif;
+	margin-top: 20px;
 
 }
 li{
 	display: inline;
 	color:white;
 }
-.whoisme{
-	background-color: #ffffff;
+
+.yohitsme{
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
-	    width: 90%;
-			padding-top: 50px;
-		    padding-left: 50px;
-		    min-height: 100px
+	margin-top: 40px;
+	min-width: 615px;
 }
+.whoisme{
+	background-color: #ffffff;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 60%;
+	    min-width: 400px;
+	    border-radius: 11px;
+	    padding-top: 50px;
+	    padding-left: 50px;
+	    padding-right: 50px;
+	    margin-right: 125px;
+	    padding-bottom: 50px;
+	    min-height: 100px;
+	    box-shadow: 4px 4px 9px #c3c3c3;
+}
+
 .whoisme p{
-	    min-height: 300px;
-font-size: 25px;
-text-align: center;
-    padding: 40px;
+	font-size: 17px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .whoisme h1{
 	text-align: center;
-	margin-top: 80px;
-margin-bottom: 30px;
-font-family: 'Montserrat Subrayada', sans-serif;
+	    margin-bottom: 30px;
+	    font-size: 30px;
+	    font-family: 'Montserrat Subrayada', sans-serif;
 }
 .whoisme i{
 	margin-left: auto;
@@ -82,6 +103,152 @@ font-family: 'Montserrat Subrayada', sans-serif;
 	width: 14%;
  color: #c76c6c;
 }
+
+ h1{
+	 
+ }
+
+.tech-pics{
+	height: 200px;
+	width: 400px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	padding-top: 50px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	border: 1px solid #a7a7a7;
+}
+.technologies{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	font-size: 20px;
+	margin-bottom: 100px;
+	text-align: center;
+	max-width: 900px;
+	min-width: 900px;
+}
+.technology-info{
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	min-width: 400px;
+	border-radius: 11px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-right: 125px;
+	padding-bottom: 50px;
+	min-height: 100px;
+	box-shadow: 4px 4px 9px #c3c3c3;
+}
+
+.technology-info p{
+	font-size: 17px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.technology-info h1{
+	text-align: center;
+	    margin-bottom: 30px;
+	    font-size: 30px;
+	    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.technology-info i{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100px;
+	display: block;
+	width: 14%;
+ color: #c76c6c;
+}
+
+
+/* PORJECT SECTION*/
+
+
+.project-section{
+	background-color: #d6d6d6;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.project-section h1{
+	text-align: center;
+	    font-size: 45px;
+	    margin-top: auto;
+	    color: #524e4e;
+	    margin-bottom: 40px;
+	    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.project-section p{
+	    font-size: 16px;
+}
+
+.project-container img{
+	height: 340px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-color: #f5f5f5;
+	display: block;
+}
+.project-container{
+	margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    max-width: 900px;
+    min-width: 900px;
+}
+.project-info{
+	background-color: #ffffff;
+	min-width: 400px;
+	padding-top: 50px;
+	float: left;
+	height: 340px;
+	padding-left: 50px;
+	width: 50%;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	min-height: 100px;
+}
+
+.links{
+	    margin-top: 25px;
+}
+.technology-info p{
+	font-size: 17px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.technology-info h1{
+	text-align: center;
+	    margin-bottom: 30px;
+	    font-size: 30px;
+	    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.technology-info i{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100px;
+	display: block;
+	width: 14%;
+ color: #c76c6c;
+}
+
+
+
+
 .bio{
 	background-color: #ffffff;
 	margin-right: auto;
@@ -91,6 +258,7 @@ font-family: 'Montserrat Subrayada', sans-serif;
     padding: 50px;
 		text-align: center;
 }
+
 .bio h2{
 	font-size: 50px;
 	margin-top: 30px;
@@ -103,12 +271,15 @@ p{
 	font-family: 'Raleway', sans-serif;
 }
 .picture{
-	    height: 500px;
-	width: 300px;
+	height: 200px;
+	width: 135px;
+	float: left;
 	margin-left: auto;
 	margin-right: auto;
 	background-size: cover;
-	background-image: url('https://graph.facebook.com/10212042720003672/picture?width=300&height=500');
+	background-image: url(https://graph.facebook.com/10212042720003672/picture?width=300&height=500);
+	border-radius: 10px;
+	box-shadow: 1px 4px 7px #949494;
 }
 .profile{
 background-color: yellow;
@@ -201,7 +372,7 @@ background-image: url('https://s10.postimg.org/de2gphm7t/Screenshot_2017_03_16_1
 background-size: cover;
 background-image: url('https://s22.postimg.org/payi10wwx/Screenshot_2017_03_16_18_09_09.png');
 }
-
+/* 
 .technologies{
 	margin-top: 100px;
 	margin-right: auto;
@@ -210,7 +381,7 @@ background-image: url('https://s22.postimg.org/payi10wwx/Screenshot_2017_03_16_1
 	font-size: 20px;
     padding: 50px;
 		text-align: center;
-}
+} */
 
 .technologies img{
 	width: 100px;
