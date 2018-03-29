@@ -271,15 +271,16 @@ p{
 	font-family: 'Raleway', sans-serif;
 }
 .picture{
-	height: 200px;
-	width: 135px;
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
-	background-size: cover;
-	background-image: url(https://graph.facebook.com/10212042720003672/picture?width=300&height=500);
-	border-radius: 10px;
-	box-shadow: 1px 4px 7px #949494;
+    height: 200px;
+    width: 135px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url(https://graph.facebook.com/10212042720003672/picture?width=300&height=300);
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 1px 4px 7px #949494;
 }
 .profile{
 background-color: yellow;
